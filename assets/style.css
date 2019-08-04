@@ -68,6 +68,8 @@ h1 {
 }
 
 img {
+    height: 150px;
+    width: 150px;
     float: left;
     padding-right: 15px;
     padding-bottom: 10px;
