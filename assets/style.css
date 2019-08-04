@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid rgb(255, 255, 255);
+    padding: 25px 25px 125px 25px;
+    margin: 0 auto;
+    width: 960px;
+    background-color: darkgray;
+}
+
+nav {
+    position: relative;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+/* Targets list items within nav */
+nav li {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 50px;
+    padding-right: 10px;
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.contact,
+.portfolio {
+    color: white;
+    border-right: 1px solid white;
+}
+
+.contact,
+.portfolio,
+.about, a:hover {
+    color:  rgba(204, 2, 255, 0.726);
+}
+
+.wrapper-background {
+    margin-top: 113px;
+    border: 2px solid white;
+    padding: 30px 80px 100px 80px; 
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    color: white;
+    background-color: rgba(204, 2, 255, 0.726);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    border: 1px solid rgb(189, 28, 28);
+    margin: 0 auto;
+    padding: 20px;
+    width: 660px;
+    font-size: 15px;
+}
+
