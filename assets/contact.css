@@ -74,20 +74,17 @@ h2 {
     padding-bottom: 10px;
 }
 
-img {
-    height: 150px;
-    width: 150px;
-    float: left;
-    padding-right: 15px;
-    padding-bottom: 10px;
-}
-
 .wrapper {
     background-color: whitesmoke;
     margin: 0 auto;
     padding: 20px;
-    width: 660px;
+    width: 500px;
     font-size: 15px;
+}
+
+button {
+    color: white;
+    background-color: rgb(162, 62, 245);
 }
 
 footer {
@@ -102,4 +99,3 @@ footer {
     font-size: .5em;
     color: rgb(162, 62, 245);
 }
-
