@@ -47,7 +47,7 @@ a:visited {
     color: rgb(162, 62, 245);
 }
 
-.wrapper-background {
+.background-image {
     position: relative;
     /* background-image: url("images.memphis.png") */
     margin-top: 113px;
@@ -81,7 +81,7 @@ img {
     padding-bottom: 10px;
 }
 
-.wrapper {
+.content {
     background-color: whitesmoke;
     margin: 0 auto;
     padding: 20px;
