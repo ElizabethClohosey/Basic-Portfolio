@@ -3,30 +3,38 @@
     width: 400px;
 }
 
-.item1, .item3 {
+.item1, .item3, .item5 {
+    position: relative;
+    margin-left: 50px;
     float: left;
     width: 120px;
     height: 100px;
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid black;
 }
 
-.item2, .item4 {
+.item2, .item4, .item6 {
+    position: relative;
     width: 120px;
-    margin-left: 135px;
+    margin-left: 200px;
     height: 100px;
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid black;
 }
 
-.item5 {
-    width: 120px;
-    height: 100px;
-    padding: 20px;
-    margin-right: 10px;
-    border: 1px solid black;
-}
-
-.item3, .item4, .item5 {
+.item3, .item4, .item5, .item6 {
     margin-top: 25px;
+}
+
+.item-labels {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(162, 62, 245);
+    font-size: 12px;
 }
