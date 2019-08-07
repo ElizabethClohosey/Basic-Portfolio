@@ -47,7 +47,7 @@ a:visited {
     color: rgb(162, 62, 245);
 }
 
-.background-image {
+.content-background {
     position: relative;
     /* background-image: url("images.memphis.png") */
     margin-top: 113px;

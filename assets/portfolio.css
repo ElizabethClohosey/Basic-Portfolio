@@ -1,49 +1,32 @@
-body {
-    background: gray;
-    border: 5px solid black;
-}
-
-nav {
-    border: 4px solid yellow;
-}
-
-.background-image {
-    position: relative;
-    border: 3px solid green;
-}
-
-/* img {
-    object-fit: cover;
-} */
-
-img {    
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    }
 
 .content {
-    position: absolute;
-    top: 10px;
-    bottom: 25px;
-    left: 50%;
-    border: 2px solid orange;
-    background-color: white;
+    width: 400px;
 }
 
-.item1 {
+.item1, .item3 {
+    float: left;
+    width: 120px;
+    height: 100px;
+    padding: 20px;
     border: 1px solid black;
 }
-.item2 {
+
+.item2, .item4 {
+    width: 120px;
+    margin-left: 135px;
+    height: 100px;
+    padding: 20px;
     border: 1px solid black;
 }
-.item3 {
-    border: 1px solid black;
-}
-.item4 {
-    border: 1px solid black;
-}
+
 .item5 {
+    width: 120px;
+    height: 100px;
+    padding: 20px;
+    margin-right: 10px;
     border: 1px solid black;
+}
+
+.item3, .item4, .item5 {
+    margin-top: 25px;
 }
