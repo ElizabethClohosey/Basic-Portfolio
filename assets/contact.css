@@ -88,6 +88,10 @@ input {
     margin-bottom: 5px;
 }
 
+#message {
+    height: 60px;
+}
+
 button {
     color: white;
     background-color: rgb(162, 62, 245);
