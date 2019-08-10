@@ -1,5 +1,5 @@
 # Basic-Portfolio
-My personal portofolio of Web Developing student experience.  
+My personal portofolio of my Web Developing student experience.  
 
 About Me section
 Contact section
